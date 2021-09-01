@@ -1,0 +1,168 @@
+  
+@media only screen and (max-width:760px) {
+   ul li a{
+       font-size: 15px;
+   }
+
+   section .title{
+       margin-top: 15px;
+       font-size: 25px;
+   }
+
+   section .title::before{
+       width:200px;
+   }
+
+   .intro{
+       margin: 0 84px;
+   }
+
+  #home p{
+       font-size:25px ;
+   }
+   
+   footer p{
+       font-size: 15px;
+   }
+
+
+   /* industries */
+   .mid .indimg{
+    width: 100px;
+    height: 100px;
+   
+   }
+
+
+   /* imple */
+   .column .implimg{
+    margin-top: 10px;
+    height: 260px;
+    width: 300px;
+   }
+
+   #implementation p{
+       font-size: 15px;
+   }
+
+   #implementation .title{
+       font-size: 20px;
+   }
+
+   /*  */
+   #imp .column h1{
+       font-size: 20px;
+   }
+    
+}
+@media only screen and (max-width:1202px) {
+    #future .column{
+        width: 80%;
+     }
+
+  
+}
+
+@media only screen and (max-width:640px) {
+   .icon{
+       display: block;
+   }
+
+   
+    .nav ul.v-class-resp{
+        display: flex;
+        flex-direction: column;
+        
+        transition: 0.9s;
+      
+        
+        
+    }
+
+    .nav ul{
+        display: flex;
+        flex-direction: column;
+        display: none;
+        
+    }
+
+    .nav{
+        flex-direction: column;
+        top: auto;
+    }
+
+    .h-nav-resp::before{
+        height: 274px;
+        transition: 0.2s;
+    } 
+
+    .navimg{
+        width: 50px;
+        height: 60px;
+        border: 2px solid white;
+        border-radius: 25px;
+    }
+
+    .nav ul li a{
+        font-size: 17px;
+        
+    }
+
+    .nav ul li {
+        list-style: none;
+        padding: 9px 56px;
+        
+    }
+
+    #home p{
+        font-size: 15px;
+        border: 2px solid brown;
+        border-radius: 10px;
+        padding: 10px 10px;
+    }
+
+    #home .indeximg{
+        height: 150px;
+        width: 150px;
+        border: 2px solid brown;
+        padding: 10px 10px;
+
+    }
+
+    #home .intro{
+            margin: 7px 50px;
+        
+    }
+
+    #Services .big{
+        font-size: 20px;
+    }
+    #Services .small{
+        font-size: 15px;
+    }
+
+    #implementation .title{
+        font-size: 20px;
+    }
+
+    #implementation .column{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    #future .column{
+        width: 100%;
+        margin-left: 37px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    #Services .indimg{
+        display: none;
+    }
+
+    #implementation .implimg{
+        height: 200px;
+        width: 200px;
+    }
+}
